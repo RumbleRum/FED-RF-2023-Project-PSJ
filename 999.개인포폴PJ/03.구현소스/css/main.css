@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* 리셋,공통 외부 CSS 합치기(merging) */
+@import url(./reset.css);
+@import url(./core.css);
+@import url(./common.css);
+
+/* 공사중표시 */
+body * {
+    outline: 2px dashed #ccc;
+}
+body > div > * {
+    outline-color: red;
+}
+
+
+#banner {
+   
+}
+.banner .partbox {
+    height: 900px;
+}
+
+
+#dokebi-menu{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+.dokebi-menu ul{
+   
+    display: flex;
+    padding: 12px 0;
+}
+
+.dokebi-menu ul>li>a{
+    color: #fff;
+    font-size: 1.8rem;
+    display: block;
+    padding: 9px 24px;
+    white-space: nowrap;
+}
+
+.dokebi-menu ul>li:hover>a{
+    color: #222;
+}
+
+.dokebi-menu ul>li.be-sub>a::after{
+    content: '∨';
+    display: inline-block;
+    transform: scale(.5,.3);
+    margin-left: 3px;
+}
+
+.dokebi-menu ul>li.on>a{    
+    background-color: red;
+    color: #fff;
+    border-radius: 30px;
+}
+
+
+.dokebi-sub-menu{
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 30px;
+    width: 180px;
+    background-color: #fff;
+
+    display: none;
+}
+
+.dokebi-menu ul>li:hover .dokebi-sub-menu{
+    display: block;
+}
+
+.dokebi-sub-menu a{
+    display: block;
+    padding: 10px 15px;
+    font-size: 1.8rem;
+}
+
+
+#main {
+    background-color: #fff;
+}
+
+.main .group-part-01 .partbox {
+    height: 1000px;
+}
+
+.main .group-part-02 .partbox {
+    height: 1000px;
+}
+
+.main .group-part-03 .partbox {
+    height: 1000px;
+}
+
+.footer .group-part-04 .partbox {
+    height: 100px;
+}
+
+.footer .group-part-05 .partbox {
+    height: 50px;
+}
