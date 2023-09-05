@@ -13,9 +13,16 @@ body > div > * {
     outline-color: red;
 }
 
+.group-part-01{
+    position: relative;
+}
 
-#banner {
-   
+
+.vidbox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%)
 }
 .vidbox video{
     width: 100%;
