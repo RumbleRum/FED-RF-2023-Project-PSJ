@@ -5,34 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="제천 국제영화제"/>
     <title>개인포폴 PJ - 영화제</title>
-    
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/55b48b95bc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <div id="header">
-        <header class="header inbox">
-            <div class="partbox col-4">
-                <img src="./images/logo.png" alt="로고">
+    <!-- 최상단 로그인 배너  -->
+    <div class="jif_wrap">
+        <ul class="right">
+            <li>
+                <a href="#">로그인 </a>
+            </li>
+            <li>
+                <a href="#">/</a>
+            </li>
+            <li>
+                <a href="#">회원가입</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 상 단 영 역 -->
+    <header class="top-menu">
+        <div class="inbox-jif">
+            <div class="part-box col-2">
+                <h1 class="logo">
+                    <a href="#">
+                        <!-- 로고 -->
+                        <img src="./images/logo.png" alt="로고">
+                    </a>
+                </h1>
             </div>
-          
-            <div class="partbox col-8">
-                <nav class="top-menu">
-                    <ul>
-                        <li>
-                            <a href="#">로그인</a>
-                        </li>
-                        <li>
-                            <a href="#">/</a>
-                        </li>
-                        <li>
-                            <a href="#">회원가입</a>
-                        </li>
-                    </ul>
-                </nav>
-               
-                <nav class="gnb">
-                    <ul>
+            <div class="part-box col-8">
+                <!-- 메뉴 박스 네비게이션 -->
+                <nav class="ab">
+                    <ul class="line-ani">
                         <li>
                             <a href="#">영화프로그램</a>
                         </li>
@@ -45,22 +51,35 @@
                         <li>
                             <a href="#">커뮤니티</a>
                         </li>
-                        <li class="d1">
-                            <a href="#">🎞시간표/예매</a>
-                        </li>
                     </ul>
-                        
                 </nav>
             </div>
-        </header>
-    </div>
+            <!-- 메뉴 시간표/예매 -->
+            <div class="part-box col-2">
+                <ul class="line-ani time-box">
+                    <li>
+                        <a href="#">🎞시간표/예매</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
     
+
+
+
+
+
     <div id="banner">
+        <div class="vidbox">
+            <video src="./images/JIMFF2023_DAY1.mp4" loop autoplay muted></video>
+
+        </div>
         <section class="banner inbox">
             <h2 class="blind">영화제 개막 소개</h2>
             
             <div class="partbox col-12">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UigvImy-GbE?autoplay=1&mute=1&controls=0&loop=1&playlist=UigvImy-GbE"></iframe>
+                <!-- <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UigvImy-GbE?autoplay=1&mute=1&controls=0&loop=1&playlist=UigvImy-GbE"></iframe> -->
             </div>
         </section>
     </div>
@@ -69,19 +88,43 @@
         <main class="main inbox">
             
             <div class="group-part group-part-01">
-                <h2>영화제 대표 출품작</h2>
-                <div class="partbox col-4"></div>
-                <div class="partbox col-4"></div>
-                <div class="partbox col-4"></div>
+                <h2 class="tit1">
+                    <i class="fa-solid fa-film"></i>
+                    영화제 대표 출품작
+                </h2>
+                <div class="partbox col-4 ch1">
+                    <figure class="img-box">
+                        <img src="./images/mv_01.jpg" alt="출품작1">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <div class="partbox col-4 ch2">
+                    <figure class="img-box">
+                        <img src="./images/mv_02.jpg" alt="출품작2">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+                <div class="partbox col-4 ch3">
+                    <figure class="img-box">
+                        <img src="./images/mv_03.jpg" alt="출품작3">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
             </div>
             <div class="group-part group-part-02">
-                <h2>영화제 개막작</h2>
+                <h2 class="tit2">
+                 <i class="fa-solid fa-film"></i>
+                    영화제 개막작
+                </h2>
                 <div class="partbox col-4"></div>
                 <div class="partbox col-8"></div>
             </div>
 
             <div class="group-part group-part-03">
-                <h2>공지사항</h2>
+                <h2 class="tit3">
+                 <i class="fa-solid fa-film"></i>
+                    공지사항
+                </h2>
                 <div class="partbox col-12"></div>
             </div>
         </main>
@@ -92,20 +135,64 @@
             
         <div class="group-part group-part-04">
             <div class="partbox col-12">
-                <img src="" alt="">
+        
             </div>
           </div>
-            <div class="partbox col-5">
-                <h1 class="footer_logo">
-                <img src="./images/logo.png" alt="">
-                </h1>
+            <div class="partbox col-5 ha4">
+                <ul class="footer_logo">
+                    <li>
+                        <img src="./images/logo.png" alt="메인로고">
+                    </li>
+                </ul>
             </div>
-
-                <div class="partbox col-7"></div>
+                <div class="partbox col-7 ha3">
+                    <ul>
+                        <li>
+                            <a href="#">법인명: (사)제천국제음악영화제</a>
+                        </li>
+                        <li>
+                            <a href="#">대표자 김창규</a>
+                        </li>
+                        <li>
+                            <a href="#">사업자번호 304-8205636</a>
+                        </li>
+                        <li>
+                            <a href="#">통신판매업신고번호 제2023-충북제천-0194호</a>
+                        </li>
+                        <li>
+                            <a href="#">이메일 jimff@jimff.org</a>
+                        </li>
+                        <li>
+                            <a href="#">주소 (27171)충청북도 제천시 내토로 295</a>
+                        </li>
+                        <li>
+                            <a href="#">사이트 이용문의 weringkr@naver.com / 1600-0265</a>
+                        </li>
+                    </ul>
+                </div>
 
           <div class="group-part group-part-05">     
-                <div class="partbox col-9"></div>
-                <div class="partbox col-3"></div>
+                <div class="partbox col-9 ha1"></div>
+                <div class="partbox col-3 ha2">
+                    <ul class="icons">
+                        <!-- 인스타아이콘 -->
+                        <li>
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                        <!-- 페북아이콘 -->
+                        <li>
+                            <i class="fa-brands fa-facebook"></i>
+                        </li>
+                        <!-- 트위터아이콘-->
+                        <li>
+                            <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <!-- 유튭아이콘 -->
+                        <li>
+                            <i class="fa-brands fa-youtube"></i>
+                        </li>
+                    </ul>
+                </div>
           </div>
 
         </footer>

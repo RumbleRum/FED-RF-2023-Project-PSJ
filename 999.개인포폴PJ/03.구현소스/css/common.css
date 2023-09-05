@@ -4,57 +4,82 @@
 #header {
     
 }
-.header .partbox {
-    height: 120px;
-}
 
-.header_logo img{
-    margin-top: 50px;
-    width: 126px;
-}
-
-.top-menu ul{
-    
+.right{
     display: flex;
-    justify-content: flex-end;   
-    padding: 15px 15px 5px 0;
-    background-color: #2c2c2c;
+    justify-content: flex-end;
+    padding: 15px 30px 15px;
 }
 
-
-.top-menu li+li{
-    margin-left: 12px;
-}
-
-.top-menu a{
-    font-size: 1.3rem;
+.right li>a{
     color: #fff;
 }
 
 
-.gnb ul{
-    
-    display: flex;
-    justify-content: flex-end;   
+
+.jif_wrap{
     background-color: #000;
+    border-bottom: solid 2px #424141 ;
 }
 
-.gnb ul>li>a{
-    font-size: 1.5rem;
-    display: block;
-    padding: 28px 30px ;
-   
-    white-space: nowrap;
+.inbox-jif{
+    position: relative;
+    max-width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.part-box{
+    float: left;
+}
+
+.logo{
+    line-height: 120px;
+}
+
+/* 중단 영역 */
+
+.tit1{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.tit2{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.tit3{
+    text-align: center;
+    font-size: 20px;
     color: #fff;
 }
 
-.gnb ul>li.d1>a{
-    position: relative;
-    background-color: red;
-    top: 23px;
-    padding: 5px;
-    text-align: center;
+
+
+.ch1 .img-box img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
 }
+.ch2 .img-box img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.ch3 .img-box img{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+
 
 
 #main {
@@ -63,7 +88,57 @@
 
 #footer {
     background-color: #000;
+
+
+
 }
 .footer .partbox {
     height: 150px;
+}
+
+
+
+
+/* 하단 아이콘영역 */
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4px;
+}
+
+.ha1{
+   background-color: #424141;
+}
+.ha2{
+   background-color: #424141;
+}
+
+.ha3{
+    background-color: #424141;
+}
+
+.ha4{
+    background-color: #424141;
+}
+
+
+.fa-instagram{
+    font-size: 40px;
+    color: white;
+}
+
+.fa-facebook{
+    font-size: 40px;
+    color: white;
+}
+
+.fa-twitter{
+    font-size: 40px;
+    color: white;
+}
+
+.fa-youtube{
+    font-size: 40px;
+    color: white;
 }
