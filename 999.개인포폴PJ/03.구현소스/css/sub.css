@@ -48,7 +48,7 @@ ol {
 #main {
     /*최상위부모*/
     position: relative;
-    width: 1381px;
+    /* max-width: 1381px; */
     margin: 0px auto;
     background: url(../images/bg1.jpg) no-repeat center / cover;
 }
@@ -92,17 +92,22 @@ ol {
 
 /*왼쪽버튼*/
 .ab1 {
-    left: 200px;
-    
+    left: 150px;
 }
 
 /*오른쪽버튼*/
 .ab2 {
-    right: 200px;
+    right: 150px;
 }
 
-
-#container>aside {
+.tit{
+    padding: 8rem 0 8rem;
+}
+.main{
+    position: relative;
+    overflow: hidden;
+}
+.wrap-banner{
     position: relative;
     overflow: hidden;
     margin: 140px 0;
@@ -138,7 +143,7 @@ ol {
 .grid img{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 85%;
     object-fit: cover;
     object-position: top;
     border-radius: 5%;
@@ -162,8 +167,13 @@ ol {
     display: block;
     font-weight: bold;
     text-align: center;
-    color: #000;
-    font-size: min(1.2vw,30px);
+    font-size: min(1.6vw,30px);
+    font-family: 'Hahmlet', serif;
+}
+
+
+.footer-sub{
+    /* max-width: 1520px; */
 }
 
 .tit-sub{

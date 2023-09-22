@@ -66,6 +66,8 @@ function loadFn() {
     const abtn = qsa('.abtn');
     // 1-2.변경 대상: #slide
     const slide = qs('#slide');
+    // 1-3.블릿박스 대상:
+    const indic = qsa('.indic li');
 
 
     // 대상확인
@@ -85,7 +87,15 @@ function loadFn() {
 
     // 3. 함수만들기
     function goSlide(){
-        console.log('나야',this,this.classList.contains('ab2'));
+        // 광클금지 //////////////
+        if(clickSts) return;//나가!
+        clickSts=1;//잠금!
+        setTimeout(()=>clickSts=0,TIME_SLIDE);//해제!       
+
+
+        // 호출확인
+        console.log('나야나!',this,
+        this.classList.contains('ab2'));
 
         // classList.contains(클래스명)
         // 선택요소에 해당클래스가 있으면 true
