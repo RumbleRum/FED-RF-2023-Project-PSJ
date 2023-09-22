@@ -599,8 +599,11 @@
 }
 
 @keyframes banner-ani {
-    100% {
-        transform: translate(calc(-140px * 13), 0);
+    0%{
+        transform: translate(0,);
+    }
+    100%{
+        transform: translate(-50%,0);
     }
 }
 
