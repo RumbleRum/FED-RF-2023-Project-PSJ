@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet&display=swap");
+/* font-family: 'Hahmlet', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+/* font-family: 'Gowun Batang', serif; */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+/* font-family: 'IBM Plex Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap");
+/* font-family: 'Sunflower', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Stylish&family=Sunflower:wght@500&display=swap");
+/* font-family: 'Stylish', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+/* font-family: 'Orbit', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Orbit&display=swap");
+/* font-family: 'Gugi', cursive; */
+
+
+.t1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-right: 2px solid #fff;
+}
+
+.t1 h1{
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.t2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.t2 h1{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.t2 h1:after{
+    display:block;
+   content: '';
+   border-bottom: solid 2px #fff;
+   transform: scaleX(0);
+   transition: transform .3s ease-in-out; 
+}
+
+.t2 h1:hover:after {
+    transform: scaleX(1);
+ }
+
+
+.ep1-1{
+    height: 25vh;
+}
+
+.ep1-2{
+    gap: 10px;
+    font-size: 12.5vw;
+    color: #fff;
+}
+
+.ep1-3{
+    font-size: 1.5vw;
+    color: rgb(241, 220, 191);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ep1-4{
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.ep2-1{
+    font-size: 10.5vw;
+    color: rgb(241, 220, 191);
+}
+
+.ep2 .flex-box{
+    background-color: #D8293A;
+}
+
+.ep2-2{
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+}
+
+.ep3>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.ep5 .flex-box{
+    background-color: #D8293A;
+}
+
+.ep5-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 11.5vw;
+    color: rgb(241, 220, 191);
+}
+
+.ep5-1 img{
+    width: 44%;
+    /* height: 100%; */
+    object-fit: fill;
+}
+
+.ep5-2{
+    font-size: 4vw;
+    color: rgb(241, 220, 191);
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ep5-3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 9.5vw;
+    color: rgb(241, 220, 191);
+}
+
+.ep5-3-img img{
+    transform: translateY(50%);
+    width: 100%;
+    /* height: 100%; */
+    object-fit: fill;
+
+}
+
+.ep5-4{
+    font-size: 3vw;
+    color: rgb(241, 220, 191);
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ep6>img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.food{
+    padding-left: 60px;
+}
+
+.food img{
+    position: absolute;
+    width: 30%;
+    transform: translateY(7%);
+}
+
+
+.ep7 .flex-box{
+    background-color: rgb(250, 250, 250);
+   
+}
+
+.ep7-2{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: 12vw;
+    color: rgba(141, 116, 83, 0.904);
+}
+
+.aa img{
+    width: 14%;
+    padding-right: 1vw;
+}
+
+.bb img{
+    width: 15%;
+    padding-left: 1vw;
+}
+
+
+.food2 img{
+    position: absolute;
+    width: 50%;
+    transform: translateY(10%);
+}
+
+
+.ep8 .flex-box{
+    background-color: rgb(250, 250, 250);
+   
+}
+
+.ep8-2{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-size: 12vw;
+    color: rgba(141, 116, 83, 0.904);
+}
+
+.cc img{
+    width: 14%;
+    padding-right: 1vw;
+}
+
+
+.ep9 .flex-box{
+    background-color: #D8293A;
+}
+
+.sul-box>ul>li>h1{
+    color: rgb(241, 220, 191);
+    font-size: 0.8vw;
+    position: relative;
+    top: 60px;
+}    
+
+.sul-box>ul>li>h2{
+    color: rgb(241, 220, 191);
+    font-size: 5vw;
+    position: relative;
+    top: 200px;
+}
+
+
+.sul-box>ul>li>p{
+    color: rgb(241, 220, 191);
+    font-size: 1vw;
+    font-weight: bold;
+    position: relative;
+    line-height: 20px;
+    top: 230px;
+}   
+
+
+.ep9-2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sul-box2 ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sul-box2 ul>li>a{
+    display: block;
+    font-size: 20px;
+    color: rgb(241, 220, 191);
+    position: relative;
+    top: 550px;
+    line-height: 50px;
+    border-bottom: #fff 1px solid;
+}
+
+.sul-box2 ul>li:hover>a{
+    font-weight: bold;
+    /* color: blue; */
+    border-bottom: #fff 4px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
