@@ -54,7 +54,11 @@ body,.wrap {
 
 
 #header {
+<<<<<<< HEAD:99999.2차 PJ/03.구현소스/my-first-react-app/src/css/main.css
     /* background-color: #333ff3; */
+=======
+    background-color: #333ff3;
+>>>>>>> b8c643e5a93926c41b44e15576e6774d3ca6ddbf:9999.개인포폴2/03.구현소스/css/main.css
     position: fixed;
     top: 0;
     left: 0;
@@ -68,7 +72,11 @@ body,.wrap {
 }
 
 #header a{
+<<<<<<< HEAD:99999.2차 PJ/03.구현소스/my-first-react-app/src/css/main.css
     color: #fff3d8;
+=======
+    color: #fff;
+>>>>>>> b8c643e5a93926c41b44e15576e6774d3ca6ddbf:9999.개인포폴2/03.구현소스/css/main.css
     text-decoration: none;
 }
 
