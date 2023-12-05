@@ -6,54 +6,54 @@
 @import url(./sub.css);
 
 /* 공사중표시 */
-body * {
+.sub body * {
     /* outline: 2px dashed blue; */
 }
 
-body > div > * {
+.sub body > div > * {
     /* outline-color: red; */
 }
 
-body{
+.sub body{
     overflow-x: hidden;
 }
 
 
-#main{
+.sub #main{
     /* display: flex; */
 }
-.inbox {
+.sub .inbox {
     flex-shrink: 0;
     width: 100vw;
     height: 100vh;
 }
 .inbox::after,
-.group-part::after {
+.sub .group-part::after {
     content: "";
     display: block;
     clear: both;
 }
 
-.partbox {
+.sub .partbox {
     /* float: left; */
     text-align: center;
     box-sizing: border-box;
     padding: 15px;
     /* height: 100%; */
 }
-.flex-box {
+.sub .flex-box {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
 }
 
 /* 숨길 박스 */
-.col-none{display: none;}
+.sub .col-none{display: none;}
 /* 보일 박스 */
-.col-block{display: block;}
+.sub .col-block{display: block;}
 
 
-#header {
+#header.sub {
     background-color: #fff;
     position: fixed;
     top: 0;
@@ -63,11 +63,11 @@ body{
     top: 0;
 }
 
-.header .partbox {
+.sub .header .partbox {
     height: 3vh;
 }
 
-#header a{
+.sub #header a{
     color: #000;
     text-decoration: none;
 }
@@ -83,7 +83,7 @@ body{
   }
   
   /* 따라다니는 원 */
-  .mover {
+  .sub .mover {
     position: absolute;
     /* position: fixed; -> JS에서 clientY사용 */
     top: 0;
@@ -108,27 +108,27 @@ body{
 
 /* //////////////////////////////////////////////////////////////////////////// */
 
-#main {
+.sub #main {
     background-color: #000;
 }
-.main .ep1 .partbox {
+.sub .main .ep1 .partbox {
     height: 25vh;
 }
-.main .ep2 .partbox {
+.sub .main .ep2 .partbox {
     height: 100vh;
 }
-.main .ep3 .partbox {
+.sub .main .ep3 .partbox {
     height: 100vh;
 }
-.main .ep3-11 .partbox {
+.sub .main .ep3-11 .partbox {
     height: 100vh;
 }
 
-.main .ep4 .partbox {
+.sub .main .ep4 .partbox {
     height: 90vh;
 }
 
-.main .ep5 .partbox {
+.sub .main .ep5 .partbox {
     height: 30vh;
 }
 
