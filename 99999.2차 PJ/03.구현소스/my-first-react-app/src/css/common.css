@@ -36,7 +36,11 @@
 }
 
 .hom{
-    width: 100px;
+    width: 120px;
+}
+
+.hom a{
+    padding: 5px;
 }
 
 .t2 {
@@ -46,7 +50,7 @@
 }
 
 .t2 h1 {
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     color: #fff;
     text-decoration: none;
     cursor: pointer;
@@ -84,8 +88,13 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
-    filter: brightness(80%);
+    filter: brightness(50%);
 }
+
+.video{
+    position: relative;
+}
+
 
 .first-bx{
     position: relative;
@@ -97,18 +106,25 @@
 }
 
 .ep1-2 {
+    position: relative;
     gap: 10px;
     font-size: 12.5vw;
     color: #fff;
+    top: 70px;
+    
 }
 
 .ep1-3 {
-    font-size: 1.5vw;
-    color: rgb(241, 220, 191);
+    position: relative;
+    top: 150px;
+
+    font-size: 2vw;
+    color: rgb(228, 201, 163);
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .ep1-4 {
@@ -117,6 +133,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .ep2-1 {
@@ -131,8 +148,11 @@
 
 .ep2-2 {
     color: #fff;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 1vw;
+    font-weight: bold;
+    line-height: 40px;
+
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .ep3 {
@@ -162,9 +182,11 @@
     font-size: 4vw;
     color: rgb(241, 220, 191);
 
+    line-height: 90px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .ep5-3 {
@@ -190,14 +212,19 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .ep6 {
     background: url(../../public/images/concert.jpg) no-repeat center/cover;
 }
 
-.ep7 .flex-box {
-    background-color: rgb(255, 255, 255);
+.fdtip{
+    background-color: rgb(243, 211, 211);
+}
+
+.ep7 {
+    /* background-color: #fff; */
 }
 
 .ep7-1 img{
@@ -213,7 +240,7 @@
     justify-content: flex-end;
     font-size: 10vw;
     font-weight: bold;
-    color: rgba(141, 116, 83, 0.904);
+    color: rgba(78, 68, 55, 0.904);
     /* top: 50px; */
     line-height: 200px;
 }
@@ -257,9 +284,9 @@
 
 .sul-box > ul > li > h1 {
     color: rgb(241, 220, 191);
-    font-size: 0.8vw;
+    font-size: 0.9vw;
     position: relative;
-    top: 60px;
+    top: 80px;
 }
 
 .sul-box > ul > li > h2 {
@@ -271,11 +298,12 @@
 
 .sul-box > ul > li > p {
     color: rgb(241, 220, 191);
-    font-size: 1vw;
+    font-size: 1.05vw;
     font-weight: bold;
     position: relative;
-    line-height: 20px;
-    top: 230px;
+    line-height: 35px;
+    top: 300px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 .ep9-2 img {
@@ -290,12 +318,15 @@
 
 .sul-box2 a{
     display: block;
-    font-size: 20px;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-decoration: none;
+
     color: rgb(241, 220, 191);
     position: relative;
-    top: 550px;
-    line-height: 50px;
-    border-bottom: #fff 1px solid;
+    top: 400px;
+    line-height: 30px;
+    border-bottom: #fff 2px solid;
 }
 
 .sul-box2 ul > li:hover > a {
@@ -320,7 +351,7 @@
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
-    animation: banner-ani 100s linear infinite;
+    animation: banner-ani 280s linear infinite;
 }
 
 @keyframes banner-ani {

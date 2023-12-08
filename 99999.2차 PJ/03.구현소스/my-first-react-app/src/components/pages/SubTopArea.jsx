@@ -5,7 +5,6 @@ import { useLayoutEffect } from "react"
 import $ from 'jquery';
 
 
-
 ///////// 서브 상단 영역 //////////////////////////////
 export function SubTopArea({chgPg}){
 
@@ -17,11 +16,11 @@ export function SubTopArea({chgPg}){
         })
 
         $('.sub-header').css({top:'-60px'})
-        .delay(1000).animate({top:'0'},600);
+        .delay(2000).animate({top:'0'},1500);
 
 
         $('.move-txt')
-        .delay(1000).animate({top:'200px',opacity:1},1000);
+        .delay(1500).animate({top:'200px',opacity:1},1500);
     });
 
     return(
@@ -34,7 +33,6 @@ export function SubTopArea({chgPg}){
                       </div>
                       <div className="t22 partbox col-1 hom2">
                           <h1><a href="#" onClick={()=>chgPg('main')}>
-                            <i className="fa-solid fa-house"></i>
                             Home
                         </a></h1>
                       </div>
@@ -46,7 +44,7 @@ export function SubTopArea({chgPg}){
                           <h1><a href="#" onClick={()=>chgPg('sub')}>CROCKFORDS</a></h1>
                       </div>
                       <div className="t22 partbox col-1">
-                          <h1><a href="#">CONRAD</a></h1>
+                          <h1><a href="#" onClick={()=>chgPg('sub')}>CONRAD</a></h1>
                       </div>
                   </div>
               </header>
