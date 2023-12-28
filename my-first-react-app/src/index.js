@@ -10,6 +10,8 @@ import ReactDOM from "react-dom/client";
 import "./css/main.css";
 import { MainPage } from "./components/pages/MainPage";
 import { SubPage } from "./components/pages/SubPage";
+import { Gaip } from "./components/pages/Gaip";
+import { Login } from "./components/pages/Login";
 
 function App() {
   const [pgName, setPgName] = useState("main");
@@ -28,6 +30,10 @@ function App() {
           <MainPage chgPg={chgPage} />
         ) : pgName === "sub" ? (
           <SubPage chgPg={chgPage} />
+        ) : pgName === "gaip" ? (
+          <Gaip chgPg={chgPage} />
+        ) : pgName === "login" ? (
+          <Login chgPg={chgPage} />
         ) : (
           <MainPage chgPg={chgPage} />
         )}
