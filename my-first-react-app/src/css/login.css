@@ -1,13 +1,13 @@
 /* 회원가입 페이지 CSS */
 
 /* 최상위 부모박스 */
-.outbx{
+.out-box{
     background: url(../../public/images/gaip_main.jpg) no-repeat center/100%;
     height: 100vh;
     opacity: 70%;
 }
 /* 전체박스 */
-.membx{
+.log-box{
     position: relative;
     max-width: 700px;
     min-height: 600px;
@@ -16,32 +16,30 @@
     border-radius: 2%;
     margin: 0 auto;
     font-family: 'Ubuntu Condensed', sans-serif;
-    /* margin-top: 100px; */
-    top: 120px;
+    top: 180px;
     background-color: #f7efdf;
 }
 
-.membx h2{
+.log-box h2{
     text-align: center;
-    text-decoration: underline;
+    text-decoration: dotted;
     text-decoration-style: solid;
     padding: 35px;
     font-size: 45px;
-    /* font-weight: bold; */
 }
 
-.membx li{
+.log-box li{
     position: relative;
     padding: 25px;
 }
-.membx label{
+.log-box label{
     display: inline-block;
     width: 25%;
     text-align: right;
     font-size: 20px;
     white-space: nowrap;
 }
-.membx input{
+.log-box input{
     width: 60%;
     height: 3vh;
     margin-left: 5%;
@@ -50,7 +48,7 @@
     font-family: 'Ubuntu Condensed', sans-serif;
     
 }
-.membx .msg{
+.log-box .msg{
     position: absolute;
     left: 31%;
     width: 50%;
@@ -60,7 +58,7 @@
     font-weight: bold;
 }
 
-.membx .sbtn{
+.log-box .sbtn{
     padding: 15px;
     background-color: #e92b2b;
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -73,17 +71,17 @@
     cursor: pointer;
     transition: .3s;
 }
-.membx .sbtn:hover{
+.log-box .sbtn:hover{
     background-color: #1a16fc;
 }
-.membx ul li:last-child{
+.log-box ul li:last-child{
     text-align: center;
 }
-.membx ul li:last-child a{
+.log-box ul li:last-child a{
     color: #0d6efd;
     text-decoration: none;
 }
-.membx ul li:last-child a:hover{
+.log-box ul li:last-child a:hover{
     color: #fd7e14;
     text-decoration: overline;
     text-decoration-style: wavy;
