@@ -78,7 +78,7 @@
 
 
 .plane{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     color: #fff;
     position: relative;
     left: 550px;
@@ -98,10 +98,10 @@
 }
 
 .user{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     color: #fff;
     position: relative;
-    left: 470px;
+    left: 465px;
     bottom: 15px;
     cursor: pointer;
 }
@@ -118,10 +118,10 @@
 }
 
 .hotel{
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     color: #fff;
     position: relative;
-    left: 385px;
+    left: 380px;
     bottom: 15px;
     cursor: pointer;
 }
@@ -238,7 +238,7 @@
 }
 
 .ep5-1 img {
-    width: 44%;
+    width: 74%;
     /* height: 100%; */
     object-fit: fill;
 }
@@ -361,13 +361,13 @@
     top: 200px;
 }
 
-.sul-box > ul > li > p {
+.seg {
     color: rgb(241, 220, 191);
     font-size: 1.05vw;
     font-weight: bold;
     position: relative;
     line-height: 35px;
-    top: 300px;
+    top: 280px;
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
@@ -403,7 +403,7 @@
 /* ep9-2 흘러가는 글자 ///////////////////////////// */
 
 #slider {
-    bottom: 180px;
+    bottom: 220px;
     overflow: hidden;
     position: relative;
     border: none;
