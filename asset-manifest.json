@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/FED-RF-2023-Project-PSJ/static/css/main.f9c6ddda.css",
+    "main.js": "/FED-RF-2023-Project-PSJ/static/js/main.1bf9c398.js",
+    "static/media/thum3.jpg": "/FED-RF-2023-Project-PSJ/static/media/thum3.91857b77651cc7a96df7.jpg",
+    "static/media/ht1.png": "/FED-RF-2023-Project-PSJ/static/media/ht1.62c534dd2f0d3ad17b30.png",
+    "static/media/thum.jpg": "/FED-RF-2023-Project-PSJ/static/media/thum.f3eb14be525f0f7b4745.jpg",
+    "static/media/ht5.png": "/FED-RF-2023-Project-PSJ/static/media/ht5.482778f670a62e214f20.png",
+    "static/media/ssub3.png": "/FED-RF-2023-Project-PSJ/static/media/ssub3.0f39424f9b3c49aa3b6e.png",
+    "static/media/concert.jpg": "/FED-RF-2023-Project-PSJ/static/media/concert.28e70bace92fcc53ce4d.jpg",
+    "static/media/conn6.jpeg": "/FED-RF-2023-Project-PSJ/static/media/conn6.56655dcf38817b6727ac.jpeg",
+    "static/media/hilton1.jpeg": "/FED-RF-2023-Project-PSJ/static/media/hilton1.0544f705f2bb90c9a661.jpeg",
+    "static/media/Entrance_Resorts_World_Las_Vegas.jpg": "/FED-RF-2023-Project-PSJ/static/media/Entrance_Resorts_World_Las_Vegas.d84fa41c82dd1fced481.jpg",
+    "static/media/crockfords1.jpg": "/FED-RF-2023-Project-PSJ/static/media/crockfords1.b056e8fa66160f6c4099.jpg",
+    "static/media/ssub2.jpg": "/FED-RF-2023-Project-PSJ/static/media/ssub2.ef0ac684d83d668a7338.jpg",
+    "static/media/ht6.png": "/FED-RF-2023-Project-PSJ/static/media/ht6.53183a1c81509080f4df.png",
+    "static/media/conrad1.jpg": "/FED-RF-2023-Project-PSJ/static/media/conrad1.561d787bcb3a240137f9.jpg",
+    "static/media/ssub4.png": "/FED-RF-2023-Project-PSJ/static/media/ssub4.3fe0716f86a95b68b3b5.png",
+    "static/media/conn7.jpeg": "/FED-RF-2023-Project-PSJ/static/media/conn7.8debd5d46b0cf1f9c98c.jpeg",
+    "static/media/conn4.jpeg": "/FED-RF-2023-Project-PSJ/static/media/conn4.02af28323e2270637fd8.jpeg",
+    "static/media/gaip_main.jpg": "/FED-RF-2023-Project-PSJ/static/media/gaip_main.403bbddac470177bf500.jpg",
+    "static/media/ht2.jpg": "/FED-RF-2023-Project-PSJ/static/media/ht2.1c6292201ae353e1f47b.jpg",
+    "index.html": "/FED-RF-2023-Project-PSJ/index.html",
+    "main.f9c6ddda.css.map": "/FED-RF-2023-Project-PSJ/static/css/main.f9c6ddda.css.map",
+    "main.1bf9c398.js.map": "/FED-RF-2023-Project-PSJ/static/js/main.1bf9c398.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9c6ddda.css",
+    "static/js/main.1bf9c398.js"
+  ]
+}
