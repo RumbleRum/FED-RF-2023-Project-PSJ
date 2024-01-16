@@ -1,0 +1,431 @@
+/* @charset "utf-8"; */
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet&display=swap");
+/* font-family: 'Hahmlet', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap");
+/* font-family: 'Gowun Batang', serif; */
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap");
+/* font-family: 'IBM Plex Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap");
+/* font-family: 'Sunflower', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Stylish&family=Sunflower:wght@500&display=swap");
+/* font-family: 'Stylish', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+/* font-family: 'Orbit', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Orbit&display=swap");
+/* font-family: 'Gugi', cursive; */
+
+
+
+/* 상단영역 //////////////////////////////////////////////// */
+.t1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #fff;
+}
+
+.t1 img {
+    width: 120%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hom{
+    width: 120px;
+}
+
+.hom a{
+    padding: 5px;
+}
+
+.t2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.t2 h1 {
+    font-size: 0.9vw;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.t2 h1:after {
+    display: block;
+    content: "";
+    border-bottom: solid 2px #fff;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.t2 h1:hover:after {
+    transform: scaleX(1);
+}
+
+.br{
+    border-right: 2px solid #fff;
+}
+
+.tr{
+    border-left: 2px solid #fff;
+}
+
+
+.plane{
+    font-size: 1.6vw;
+    color: #fff;
+    position: relative;
+    left: 550px;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+.plane::after{
+    display: block;
+    content: "";
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.plane:hover {
+    transform: scale(1.2);
+    color: yellow;
+}
+
+.user{
+    font-size: 1.6vw;
+    color: #fff;
+    position: relative;
+    left: 465px;
+    bottom: 13px;
+    cursor: pointer;
+}
+
+.user::after{
+    display: block;
+    content: "";
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.user:hover {
+    transform: scale(1.2);
+    color: yellow;
+}
+
+.hotel{
+    font-size: 1.6vw;
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+    left: 385px;
+}
+
+.hotel::after{
+    display: block;
+    content: "";
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hotel:hover {
+    transform: scale(1.2);
+    color: yellow;
+}
+
+
+
+
+
+/* 메인영역 //////////////////////////////////////////////// */
+
+.video-box {
+    position: relative;
+}
+#mvid{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.video{
+    position: relative;
+}
+
+
+.first-bx{
+    position: relative;
+}
+
+
+.ep1-1 {
+    height: 25vh;
+}
+
+.ep1-2 {
+    position: relative;
+    gap: 10px;
+    font-size: 12.5vw;
+    color: #fff;
+    top: 70px;
+    
+}
+
+.ep1-3 {
+    position: relative;
+    top: 150px;
+
+    font-size: 2vw;
+    color: rgb(228, 201, 163);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ep1-4 {
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.ep2-1 {
+    position: relative;
+    font-size: 12.5vw;
+    color: rgb(241, 220, 191);
+}
+
+.ep2 .flex-box {
+    background-color: #d8293a;
+}
+
+.ep2-2 {
+    color: #fff;
+    font-size: 1vw;
+    font-weight: bold;
+    line-height: 40px;
+
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.ep3 {
+    background: url(../../public/images/Entrance_Resorts_World_Las_Vegas.jpg) no-repeat center/cover;
+}
+
+.ep5 .flex-box {
+    background-color: #d8293a;
+}
+
+.ep5-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 11.5vw;
+    color: rgb(241, 220, 191);
+}
+
+.ep5-1 img {
+    width: 74%;
+    /* height: 100%; */
+    object-fit: fill;
+}
+
+.ep5-2 {
+    font-size: 4vw;
+    color: rgb(241, 220, 191);
+
+    line-height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.ep5-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 9.5vw;
+    color: rgb(241, 220, 191);
+}
+
+.ep5-3-img img {
+    transform: translateY(50%);
+    width: 100%;
+    /* height: 100%; */
+    object-fit: fill;
+}
+
+.ep5-4 {
+    font-size: 2.8vw;
+    color: rgb(233, 212, 183);
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.ep6 {
+    background: url(../../public/images/concert.jpg) no-repeat center/cover;
+}
+
+.fdtip{
+    background-color: rgb(243, 211, 211);
+}
+
+.ep7 {
+    /* background-color: #fff; */
+}
+
+.ep7-1 img{
+    padding-left: 60px;
+    width: 88%;
+    display: flex;
+    transform: translateY(2%);
+}
+
+.ep7-2 a{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10vw;
+    font-weight: bold;
+    color: rgba(78, 68, 55, 0.904);
+    /* top: 50px; */
+    line-height: 200px;
+}
+
+.ep7-2 img{
+    width: 28%;
+    padding: 10px;
+}
+
+
+
+.ep8-1 img{
+    padding-left: 60px;
+    width: 80%;
+    display: flex;
+    transform: translateY(2%);
+}
+
+.ep8-2 a{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 10vw;
+    font-weight: bold;
+    color: rgba(141, 116, 83, 0.904);
+    /* top: 50px; */
+    line-height: 200px;
+}
+
+.ep8-2 img{
+    width: 28%;
+    padding: 10px;
+}
+
+
+
+
+.ep9 .flex-box {
+    background-color: #d8293a;
+}
+
+.sul-box > ul > li > h1 {
+    color: rgb(241, 220, 191);
+    font-size: 0.9vw;
+    position: relative;
+    top: 80px;
+}
+
+.sul-box > ul > li > h2 {
+    color: rgb(241, 220, 191);
+    font-size: 5vw;
+    position: relative;
+    top: 200px;
+}
+
+.seg {
+    color: rgb(241, 220, 191);
+    font-size: 1.05vw;
+    font-weight: bold;
+    position: relative;
+    line-height: 35px;
+    top: 280px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.ep9-2 img {
+    width: 100%;
+    height: 95%;
+}
+
+.sul-box2 ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sul-box2 a{
+    display: block;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-decoration: none;
+
+    color: rgb(241, 220, 191);
+    position: relative;
+    top: 400px;
+    line-height: 30px;
+    border-bottom: #fff 2px solid;
+}
+
+.sul-box2 ul > li:hover > a {
+    font-weight: bold;
+    /* color: blue; */
+    border-bottom: #fff 4px solid;
+}
+
+/* ep9-2 흘러가는 글자 ///////////////////////////// */
+
+#slider {
+    bottom: 220px;
+    overflow: hidden;
+    position: relative;
+    border: none;
+    max-width: 1360px;
+    height: 60px;
+}
+
+.image-box {
+    width: 3000px;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    animation: banner-ani 280s linear infinite;
+}
+
+@keyframes banner-ani {
+    100% {
+        transform: translate(calc(-100px * 10), 0);
+    }
+}
+
+/* ///////////////////////////// */
